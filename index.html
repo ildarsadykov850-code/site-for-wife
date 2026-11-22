@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Швейная мастерская Лилии Садыковой</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Швейная мастерская Лилии Садыковой</h1>
+        <p>Качественный пошив и ремонт одежды любой сложности</p>
+    </header>
+
+    <!-- Блок с фотографией и приветствием -->
+    <section class="about">
+        <img src="{{ url_for('static', filename='img/lilia.jpg') }}" alt="Лилия Садыкова" class="profile-photo">
+        <h2>Здравствуйте, меня зовут Лилия!</h2>
+        <p>Я создаю одежду, которая подчеркивает вашу индивидуальность. В моей мастерской вы найдете внимательный подход и высокое качество исполнения.</p>
+    </section>
+
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Индивидуальный пошив</li>
+            <li>Ремонт одежды</li>
+            <li>Пошив по готовым лекалам</li>
+            <li>Работа с любыми тканями</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Свяжитесь с нами</h2>
+        <!-- ЗАМЕНИТЕ НОМЕР НА РЕАЛЬНЫЙ -->
+        <p>Телефон: <a href="tel:+79174938925">+7 (917)4938925</a></p>
+        <!-- ЗАМЕНИТЕ АДРЕС НА РЕАЛЬНЫЙ -->
+        <p>Адрес: г. Уфа, ул. Батырская, д. 4/2 (Мастерская)</p>
+        
+        <a href="https://max.ru/your_channel_link" class="btn" target="_blank">Написать в MAX</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Швейная мастерская Лилии Садыковой</p>
+    </footer>
+</body>
+</html>
